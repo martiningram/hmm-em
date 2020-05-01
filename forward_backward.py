@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.special import logsumexp
-from numba import jit
 
 
 # Alpha part

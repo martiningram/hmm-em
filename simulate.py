@@ -22,8 +22,6 @@ def simulate_hmm(init_probs, B, trans_mat, n_to_simulate):
     # Now we can simulate:
     init_z = np.random.choice(n_latent, p=init_probs)
 
-    n_to_simulate = 100
-
     ys = np.zeros(n_to_simulate, dtype=int)
     zs = np.zeros(n_to_simulate, dtype=int)
 
